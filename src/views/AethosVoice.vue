@@ -3,7 +3,7 @@
     <v-responsive class="d-flex align-center text-center fill-height">
       <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
 
-      <h1 class="text-h2 font-weight-bold">AeronVoice</h1>
+      <h1 class="text-h2 font-weight-bold">AethosVoice</h1>
 
       <div class="py-14">
         <v-icon
@@ -49,7 +49,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 export default {
-  name: "AeronVoice",
+  name: "AethosVoice",
   data: () => ({
     record: null,
     transcript: null,
