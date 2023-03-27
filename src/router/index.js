@@ -8,8 +8,13 @@ const routes = [
     children: [
       {
         path: "/",
-        name: "Chat",
-        component: () =>import(/* webpackChunkName: "Chat" */ "@/views/Home.vue"),
+        name: "Home",
+        component: () =>import(/* webpackChunkName: "Home" */ "@/views/Home.vue"),
+      },
+      {
+        path: "/projects",
+        name: "Projects",
+        component: () =>import(/* webpackChunkName: "AethosVoice" */ "@/views/Projects.vue"),
       },
       {
         path: "/voice",
